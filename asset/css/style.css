@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    /* display: flexbox; */
+    flex-wrap: wrap;
+    display: inline;
+}
+.carousel-track {
+    display: inline-flex;
+    transition: transform 0.5s ease;
+    flex-wrap: wrap;
+}
+.carousel-item {
+    min-width: 200px;
+    margin: 0 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
