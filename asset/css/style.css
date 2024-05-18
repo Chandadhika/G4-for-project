@@ -7,7 +7,6 @@ body {
     background-color: #f2f2f2;
     padding: 20px;
     box-sizing: border-box;
-    /* display: flexbox; */
     flex-wrap: wrap;
     display: inline;
 }
