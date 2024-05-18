@@ -25,6 +25,10 @@
     background-color: #c58447;
 } */
 
+
+.home {
+    text-align: center;
+}
 .container {
     font-family: Arial, sans-serif;
     display: flex;
