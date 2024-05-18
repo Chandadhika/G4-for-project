@@ -1,31 +1,4 @@
-/* .monk-card {
-    margin: 20px;
-    text-align: center;
-}
-.monk-card img {
-    width: 200px;
-    height: 200px;
-    border-bottom: 1px solid #ddd;
-}
-.monk-card h3 {
-    margin: 10px 0;
-    font-size: 18px;
-}
-.monk-card button {
-    background-color: #d4a373;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    margin: 10px 0;
-    cursor: pointer;
-    border-radius: 5px;
-}
-.monk-card button:hover {
-    background-color: #c58447;
-} */
-
-.container {
+body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
