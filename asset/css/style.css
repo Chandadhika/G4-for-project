@@ -11,9 +11,11 @@ body {
     display: inline;
 }
 .carousel-track {
-    display: inline-flex;
+    display: inline-block;
     transition: transform 0.5s ease;
     flex-wrap: wrap;
+    align-items: center;
+    display: flex;
 }
 .carousel-item {
     min-width: 200px;
