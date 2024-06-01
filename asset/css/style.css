@@ -11,28 +11,36 @@
     margin: 0;
     padding: 20px;
 } 
-/* .hero-bg {
-    background-image: url("./asset/image/13.jpeg");
+.hero-bg {
+    background-image: url("asset/image/panna2.jpeg");
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Adjust height as needed 
-} */
-/* .cont { 
+    height: 100vh; 
+}
+.container1 { 
     justify-content: center;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
 } 
 
-/* .text h1 {
+.text h1 {
     font-size: 20px;
     font-weight: bold;
-} */
-/* .text p {
+    display: flex;
+} 
+.text p {
     font-size: 15px;
     font-style: italic;
     color: rgb(28, 4, 4);
     flex-wrap: wrap;
-} */
+    display: flex;
+} 
+
+img.img-flui {
+    width: 75%;
+    height: 100%; 
+    border-bottom: 1px solid #ddd;
+}
 
 .monk-card {
     background-color: white;
