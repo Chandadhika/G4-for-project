@@ -4,36 +4,47 @@
 }
 
 .hero {
-    background-image: url(asset/image/panna2.jpeg);
+    height: 800%;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(/asset/image/panna2.jpeg);
     background-size: cover;
+    display: inline-block;
+    align-items: center;
     background-position: 80%;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
 }
 .hero-gp {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
+    display: flex;
+    justify-content: space-between;
     
 }
 .hero-gp img {
    width: 55%;
-   height: 50%;
-   padding: 1px;
-   margin: 20px;
+   height: 55%;
+   padding: 0.5px 0 0 0.5px;
+   margin: 10%;
    border: 5px solid rgb(170, 148, 5);
    border-radius: 25px;
-   display: inline-block;
+   display: flex;
+   flex-wrap: wrap; 
+   justify-content: center;
+   justify-content: space-between;
+   align-items: center;
+   text-align: center;
+   opacity: 100%;
 } 
 .sotujana h1 {
     font-style: italic;
-    font-size: 25px; 
-    display: inline-block;
-    
+    font-size: 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 29px;
+    color: rgb(242, 242, 246);
+}
+.sotujana p {
+    color: aqua;
 }
 
 .container {
