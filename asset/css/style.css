@@ -21,34 +21,46 @@ body {
     display: inline-block;
     align-items: center;
     background-position: 80%;
-}
-.hero-gp {
-    justify-content: center;
-    display: flex;
-    justify-content: space-between;
     
 }
-.hero-gp img {
-   width: 55%;
-   height: 50%;
-   padding: 0.5px 0 0 0.5px;
+.container {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container img {
+   width: 400px;
+   height: auto;
+   padding: 0.5px 0 0 1.5px;
    margin: 10%;
+   margin-right: 20%;
    border: 5px solid rgb(170, 148, 5);
    border-radius: 25px;
    
-} 
+}  
 .sotujana h1 {
     font-style: italic;
     font-size: 20px; 
-    margin: 10px;
-    padding: 29px;
     color: rgb(242, 242, 246);
 }
 .sotujana p {
-    color: aqua;
+    color: rgb(251, 247, 247);
 }
 
-.container {
+.sotujana h1, p {
+    /* flex-wrap: wrap; */
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #5b4a4a;
+    opacity: 55%;
+    line-height: 2rem;
+    width: 500px;
+    height: auto;
+}
+
+.contain {
     font-family: Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
