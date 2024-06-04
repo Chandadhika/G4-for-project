@@ -1,4 +1,13 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+}
 .home {
     text-align: center;
 }
@@ -21,24 +30,16 @@
 }
 .hero-gp img {
    width: 55%;
-   height: 55%;
+   height: 50%;
    padding: 0.5px 0 0 0.5px;
    margin: 10%;
    border: 5px solid rgb(170, 148, 5);
    border-radius: 25px;
-   display: flex;
-   flex-wrap: wrap; 
-   justify-content: center;
-   justify-content: space-between;
-   align-items: center;
-   text-align: center;
-   opacity: 100%;
+   
 } 
 .sotujana h1 {
     font-style: italic;
     font-size: 20px; 
-    display: flex;
-    flex-wrap: wrap;
     margin: 10px;
     padding: 29px;
     color: rgb(242, 242, 246);
@@ -93,6 +94,6 @@
     background-color: #c58447;
 } 
 
-/* .container-2 {
+.container-2 {
     display: block;
-} */
+}
