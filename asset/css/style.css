@@ -41,20 +41,20 @@ body {
 }  
 .sotujana h1 {
     font-style: italic;
-    font-size: 20px; 
+    font-size: 35px; 
     color: rgb(242, 242, 246);
+    font-weight: bold;
+    text-decoration: underline;
 }
 .sotujana p {
     color: rgb(251, 247, 247);
+    font-size: 20px;
 }
 
 .sotujana h1, p {
-    /* flex-wrap: wrap; */
     padding: 20px;
     margin: 20px;
     text-align: center;
-    background-color: #5b4a4a;
-    opacity: 55%;
     line-height: 2rem;
     width: 500px;
     height: auto;
