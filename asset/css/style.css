@@ -36,7 +36,7 @@ body {
    margin: 10px;
    margin-right: 20%;
    border: 5px solid rgb(252, 251, 249);
-   box-shadow: 10px 10px 7.5px #0b0142;
+   box-shadow: 0 10px 10px 3px #5e2d00;
    border-radius: 25px;
    
 }  
@@ -71,6 +71,21 @@ body {
     margin: 0;
     padding: 20px;
 } 
+
+.teach {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    background-color: #ced1d3;
+}
+
+.teach img {
+    border: 3px solid #d4a373;
+    border-radius: 25px;
+    animation: both;
+}
 
 .monk-card {
     background-color: white;
