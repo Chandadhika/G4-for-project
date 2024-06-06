@@ -16,7 +16,7 @@ body {
     height: 800%;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(/asset/image/panna2.jpeg);
+    background-image: url(/asset/image/panna3.jpeg);
     background-size: cover;
     display: inline-block;
     align-items: center;
@@ -84,9 +84,14 @@ body {
 .teach img {
     border: 3px solid #d4a373;
     border-radius: 25px;
-    animation: both;
 }
-
+span .right {
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+    display: inline;
+    
+}
 .monk-card {
     background-color: white;
     border: 1px solid #acac48;
