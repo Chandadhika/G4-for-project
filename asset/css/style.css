@@ -91,6 +91,9 @@ footer a {
 #b:hover {
     background-color: dimgray;
 }
+
+
+/* creater chandadhiaka start */
 * {
     margin: 0;
     padding: 0;
@@ -185,7 +188,7 @@ body {
     color: rgb(50, 65, 195);
 }
 .teach p {
-    background-color: rgb(218, 245, 251);
+    /* background-color: rgb(218, 245, */
     display: block;
 
 }
