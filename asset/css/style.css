@@ -36,23 +36,24 @@ body {
    margin: 10px;
    margin-right: 20%;
    border: 5px solid rgb(252, 251, 249);
-   box-shadow: 0 10px 10px 3px #5e2d00;
+   box-shadow: 0 15px 8px  #5e2d00;
    border-radius: 25px;
    
 }  
 .sotujana h1 {
     font-style: italic;
     font-size: 35px; 
-    color: rgb(242, 242, 246);
+    color: rgb(1, 1, 59);
     font-weight: bold;
     text-decoration: underline;
 }
 .sotujana p {
-    color: rgb(251, 247, 247);
+    color: rgb(1, 0, 0);
     font-size: 20px;
 }
 
 .sotujana h1, p {
+    background-color: rgb(245, 249, 198);
     padding: 0.5px;
     margin: 10px;
     text-align: justify;
