@@ -53,11 +53,12 @@ body {
 }
 
 .sotujana h1, p {
-    /* background-color: rgb(245, 249, 198); */
+    background-color: rgb(245, 249, 198);
     padding: 0.5px;
     margin: 10px;
     text-align: justify;
     line-height: 2.5rem;
+    width: 600px;
     height: auto;
 }
 
@@ -73,8 +74,8 @@ body {
 } 
 
 .teach {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     justify-items: center;
     align-items: center;
@@ -86,14 +87,14 @@ body {
     border-radius: 25px;
 }
 .teach a {
+    padding-top: 70px;
     font-size: 20px;
     text-decoration: underline;
     color: rgb(50, 65, 195);
 }
 .teach p {
     background-color: rgb(218, 245, 251);
-    display: inline-block;
-    /* width: 700px; */
+    display: block;
 
 }
 .monk-card {
