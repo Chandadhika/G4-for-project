@@ -111,7 +111,7 @@ body {
     height: 800%;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(/asset/image/panna3.jpeg);
+    background-image: url(/asset/image/panna3.jpg);
     background-size: cover;
     display: inline-block;
     align-items: center;
@@ -137,23 +137,24 @@ body {
 }  
 
 .sotujana {
-    background-color: rgb(245, 249, 198);
+    color: rgb(245, 249, 198);
     padding: 0.5px;
     margin: 10px;
     text-align: justify;
     line-height: 2.5rem;
-    width: 600px;
+    width: 800px;
     height: auto; 
 }
 .sotujana h1 {
     font-style: italic;
     font-size: 35px; 
-    color: rgb(1, 1, 59);
+    color: rgb(242, 242, 247);
     font-weight: bold;
     text-decoration: underline;
+    text-shadow: 2px 4px #b5013d;
 }
 .sotujana p {
-    color: rgb(1, 0, 0);
+    color: rgb(253, 251, 251);
     font-size: 20px;
 }
 
