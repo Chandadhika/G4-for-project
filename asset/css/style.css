@@ -40,6 +40,16 @@ body {
    border-radius: 25px;
    
 }  
+
+.sotujana {
+    background-color: rgb(245, 249, 198);
+    padding: 0.5px;
+    margin: 10px;
+    text-align: justify;
+    line-height: 2.5rem;
+    width: 600px;
+    height: auto; 
+}
 .sotujana h1 {
     font-style: italic;
     font-size: 35px; 
@@ -50,16 +60,6 @@ body {
 .sotujana p {
     color: rgb(1, 0, 0);
     font-size: 20px;
-}
-
-.sotujana h1, p {
-    background-color: rgb(245, 249, 198);
-    padding: 0.5px;
-    margin: 10px;
-    text-align: justify;
-    line-height: 2.5rem;
-    width: 600px;
-    height: auto;
 }
 
 .contain {
