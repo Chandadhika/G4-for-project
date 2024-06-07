@@ -1,5 +1,5 @@
 
-function showContent(id) {
+// function showContent(id) {
     // Hide all content elements
     var contents = document.querySelectorAll('.content');
     contents.forEach(function(content) {
