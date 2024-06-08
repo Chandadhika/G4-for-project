@@ -5,7 +5,9 @@
 }
 header {
     padding: 20px 35px;
-    background-color: rgb(0, 255, 247);
+    background-color: rgb(218, 74, 117);
+    width: 100%;
+    height: 100px;
 }
 header h1 {
     font-weight: bold;
@@ -14,15 +16,6 @@ header h1 {
     margin: 0;
     display: inline;
     box-shadow: 0 0 10px black;
-}
-#c {
-    font-size: 40px;
-    color: rgb(72, 63, 238);
-    background-color: chartreuse;
-}
-
-#c:hover {
-    background-color: rgb(63, 29, 29);
 }
 header a {
     text-decoration: none;
@@ -44,61 +37,31 @@ header nav ul li a {
 }
 
 footer {
-    background:rgb(227, 206, 65);
+    background:rgb(227, 48, 102);
     width: 100%;
     padding: 10px 20px;
-    box-shadow: 0 0 20px rgb(255, 38, 0);
+    /* box-shadow: 0 0 20px rgb(255, 38, 0); */
 }
-footer h2 {
+footer h3 {
     display: inline;
-    color: rgb(225, 11, 11);
+    color: rgb(34, 10, 10);
     font-size: 30px;
-    box-shadow: 0 0 10px rgb(171, 14, 14);
+    /* box-shadow: 0 0 10px rgb(171, 14, 14); */
 }
 footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
-    box-shadow: 0 0 10px rgb(234, 76, 76);
+    /* box-shadow: 0 0 10px rgb(234, 76, 76); */
 }
 footer a {
     color: rgb(8, 43, 108);
     text-decoration: none;
-    box-shadow: 0 0  20px rgb(0, 0, 0);
+    margin-top: 20px;
+    /* box-shadow: 0 0  20px rgb(0, 0, 0); */
     /* height: 20px; */
 }
-.menu {
-    background-color: rgb(51, 51, 77);
-}
-.menu:hover {
-    background-color: chartreuse;
-}
-#submit {
-    background-color: rgb(30, 210, 42);
-}
-#submit:hover {
-    background-color: crimson;
-}
-.v {
-    background-color: darkmagenta;
-}
-.v:hover {
-    background-color: darksalmon;
-}
-#b {
-    background-color: gold;    
-}
-#b:hover {
-    background-color: dimgray;
-}
-
-
 /* creater chandadhiaka start */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     background-color: #ddd;
@@ -108,10 +71,11 @@ body {
 }
 
 .hero {
-    height: 800%;
+    height: 900%;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url(/asset/image/panna3.jpeg);
+    padding: 30px;
+    margin-bottom: 30px;
+    background-image: url(/asset/image/panna3.jpg);
     background-size: cover;
     display: inline-block;
     align-items: center;
@@ -137,23 +101,24 @@ body {
 }  
 
 .sotujana {
-    background-color: rgb(245, 249, 198);
+    color: rgb(245, 249, 198);
     padding: 0.5px;
     margin: 10px;
     text-align: justify;
     line-height: 2.5rem;
-    width: 600px;
+    width: 50%;
     height: auto; 
 }
 .sotujana h1 {
     font-style: italic;
     font-size: 35px; 
-    color: rgb(1, 1, 59);
+    color: rgb(242, 242, 247);
     font-weight: bold;
     text-decoration: underline;
+    text-shadow: 2px 4px #b5013d;
 }
 .sotujana p {
-    color: rgb(1, 0, 0);
+    color: rgb(253, 251, 251);
     font-size: 20px;
 }
 
@@ -252,4 +217,18 @@ body {
 
 .active {
     display: block;
+}
+.btn {
+    outline: none;
+    border: none;
+    display: inline-block;
+    padding: 10px 15px;
+    background: #051686;
+    font-size: 2.2rem;
+    border-radius: 12px;
+    position: relative;
+    top: -3px;
+    box-shadow: 0 3px rgb(22, 22, 214);
+
+
 }
