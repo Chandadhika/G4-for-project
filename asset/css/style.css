@@ -99,7 +99,8 @@ body {
 }  
 
 .sotujana {
-    color: rgb(245, 249, 198);
+    color: rgb(7, 7, 6);
+    background-color: #dec7c7;
     padding: 0.5px;
     margin: 10px;
     text-align: justify;
@@ -116,7 +117,7 @@ body {
     text-shadow: 2px 4px #b5013d;
 }
 .sotujana p {
-    color: rgb(253, 251, 251);
+    color: rgb(11, 11, 11);
     font-size: 20px;
 }
 
