@@ -20,7 +20,7 @@ header h1 {
 header a {
     text-decoration: none;
     color: fuchsia;
-    box-shadow: 0 0 10px black;
+    /* box-shadow: 0 0 10px black; */
 }
 header nav {
     float: right;
