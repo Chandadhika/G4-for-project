@@ -233,13 +233,6 @@ body {
 
 }
 
-/* Large devices (desktops) */
-@media (min-width: 992px) {
-    .item {
-      width: 30%;
-    }
-  }
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -263,11 +256,12 @@ body {
 
 
 /* Medium devices (tablets) */
-@media (min-width: 768px) 
+@media (min-width: 768px) {
     .container {
       flex-direction: row;
       justify-content: space-around;
     }
+}
 
 /* Flex container for mobile */
 .container {
