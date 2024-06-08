@@ -62,16 +62,15 @@ footer {
 /* creater chandadhiaka start */
 
 body {
-    background-color: #ddd;
+    /* background-color: #ddd; */
 }
 .home {
     text-align: center;
 }
 
 .hero {
-    height: 800%;
+    height: 750%;
     width: 100%;
-    padding: 30px;
     margin-bottom: 30px;
     background-image: url(/asset/image/panna3.jpg);
     background-size: cover;
@@ -238,62 +237,6 @@ header .btn {
 
 
 
-/* Medium devices (tablets) */
-@media (min-width: 768px) {
-    .container {
-      flex-direction: row;
-      justify-content: space-around;
-    }
-}
-
-/* Flex container for mobile */
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  /* Change direction for tablets and larger screens */
-  @media (min-width: 768px) {
-    .container {
-      flex-direction: row;
-    }
-  }
-
-/* Styles for tablets and larger screens */
-@media (min-width: 576px) {
-    body {
-      font-size: 18px;
-      margin: 20px;
-    }
-  }
-  
-  /* Styles for desktops and larger screens */
-  @media (min-width: 992px) {
-    body {
-      font-size: 20px;
-      margin: 30px;
-    }
-  }
-  img, video {
-    max-width: 100%;
-    height: auto;
-  }
-  body {
-    font-size: 1rem; /* Default font size */
-  }
-  
-  @media (min-width: 768px) {
-    body {
-      font-size: 1.125rem; /* 18px */
-    }
-  }
-  
-  @media (min-width: 992px) {
-    body {
-      font-size: 1.25rem; /* 20px */
-    }
-  }
 
 
  
