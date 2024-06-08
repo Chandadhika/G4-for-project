@@ -62,7 +62,7 @@ footer {
 /* creater chandadhiaka start */
 
 body {
-    /* background-color: #ddd; */
+    background-color: #ddd;
 }
 .home {
     text-align: center;
@@ -73,7 +73,7 @@ body {
     width: 100%;
     padding: 25px;
     margin-bottom: 30px;
-    background-image: url(/asset/image/သင်ကြားခြင်း၂.jpeg);
+    background-image: url(/asset/image1/သင်ကြားခြင်း၂.jpeg);
     background-size: cover;
     display: inline-block;
     align-items: center;
