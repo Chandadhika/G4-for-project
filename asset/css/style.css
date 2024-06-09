@@ -69,11 +69,11 @@ body {
 }
 
 .hero {
-    height: 750%;
+    height: 800%;
     width: 100%;
     padding: 25px;
     margin-bottom: 30px;
-    background-image: url(/asset/image1/သင်ကြားခြင်း၂.jpeg);
+    background-image: url(/asset/image/panna3.jpg);
     background-size: cover;
     display: inline-block;
     align-items: center;
