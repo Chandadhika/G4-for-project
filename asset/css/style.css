@@ -29,6 +29,7 @@ header nav {
 }
 header nav ul li {
     display: inline;
+    margin: -25px;
 }
 header nav ul li a {
     margin: 0 30px;
@@ -229,7 +230,7 @@ header .btn {
     border-radius: 12px;
     position: relative;
     top: -3px;
-    box-shadow: 0 3px rgb(22, 22, 214);
+    box-shadow: -3px -4px 2px 1px rgb(22, 22, 214);
 
 }
 
@@ -278,6 +279,7 @@ header .btn {
   img, video {
     max-width: 100%;
     height: auto;
+    margin-top: -20px;
   }
   body {
     font-size: 1rem; /* Default font size */
