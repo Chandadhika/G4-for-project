@@ -119,13 +119,13 @@ body {
 .sotujana h1 {
     font-style: italic;
     font-size: 35px; 
-    color: rgb(242, 242, 247);
+    color: rgb(185, 185, 207);
     font-weight: bold;
     text-decoration: underline;
     text-shadow: 2px 4px #b5013d;
 }
 .sotujana p {
-    color: rgb(247, 231, 231);
+    color: rgb(20, 19, 19);
     font-size: 20px;
 }
 
