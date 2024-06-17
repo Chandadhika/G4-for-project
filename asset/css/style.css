@@ -241,8 +241,3 @@ header .btn {
     box-shadow: -3px -4px 2px 1px rgb(22, 22, 214);
 
 }
-@media screen and (max-width: 768px) {
-    .vo{
-      flex-direction: column;
-    }
-  }
