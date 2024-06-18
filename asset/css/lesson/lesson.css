@@ -15,7 +15,7 @@
 .c {
     border: 3px solid rgb(189, 164, 3);
     /* padding: 200px; */
-    background-color: rgb(225, 128, 147);
+    background-color: rgb(206, 138, 152);
 }
 .v {
     border: 2px solid black;
@@ -37,7 +37,7 @@ body {
 .does {
     background-color: rgb(144, 67, 159);
     border: 2px solid navy;
-    padding: 20px 20px;
+    padding: 10px 20px;
     margin: 40px;
     height: 100px;
     font-size: 30px;
@@ -45,9 +45,9 @@ body {
 .doing {
     background-color: rgb(64, 237, 116);
     border: 2px solid navy;
-    padding: 20px 20px;
+    padding: 20px 40px;
     margin: 40px;
-    height: 100px;
+    height: 120px;
     font-size: 30px;
 }
 .on {
@@ -55,6 +55,73 @@ body {
     border: 2px solid navy;
     padding: 20px 20px;
     margin: 40px;
-    height: 100px;
+    height: 130px;
     font-size: 30px;
 }
+@media screen and (max-width: 768px) {
+    .does {
+        padding: 15px; /* Reduce el padding para dispositivos más pequeños */
+    }
+
+    .does h6 {
+        font-size: 16px; /* Tamaño de fuente más pequeño para el encabezado */
+    }
+
+    .does p {
+        font-size: 14px; /* Tamaño de fuente más pequeño para el párrafo */
+    }
+}
+@media screen and (max-width: 768px) {
+    .do {
+        padding: 15px; /* Reduce el padding para dispositivos más pequeños */
+    }
+
+    .do h6 {
+        font-size: 20px; /* Tamaño de fuente más pequeño para el encabezado */
+    }
+
+    .do p {
+        font-size: 16px; /* Tamaño de fuente más pequeño para el párrafo */
+    }
+}
+@media screen and (max-width: 768px) {
+    .doing {
+        padding: 15px; /* Reduce el padding para dispositivos más pequeños */
+    }
+
+    .doing h6 {
+        font-size: 18px; /* Tamaño de fuente más pequeño para el encabezado */
+    }
+
+    .doing p {
+        font-size: 14px; /* Tamaño de fuente más pequeño para el párrafo */
+    }
+}
+@media screen and (max-width: 768px) {
+    .doing {
+        padding: 15px;
+    }
+
+    .doing h6 {
+        font-size: 1.1em;
+    }
+
+    .doing p {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .on {
+        padding: 15px;
+    }
+
+    .on h6 {
+        font-size: 20px;
+    }
+
+    .on p {
+        font-size: 16px;
+    }
+}
+
+  

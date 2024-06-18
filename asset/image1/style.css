@@ -69,6 +69,7 @@ section {
      cursor: pointer;
      user-select: none;
      transition: .3s ease;
+     color: #fff;
 }
 .tab-menu.dragging .tab-btn {
      pointer-events: none;
