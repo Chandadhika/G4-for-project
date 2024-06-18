@@ -113,10 +113,19 @@ body {
    border-radius: 25px;
    
 }  
+.contain {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+} 
 
 .sotujana {
     color: rgb(21, 21, 20);
-    /* background-color: #dec7c7; */
     padding: 0.5px;
     margin: 10px;
     text-align: justify;
@@ -135,17 +144,6 @@ body {
 .sotujana p {
     color: rgb(20, 19, 19);
     font-size: 20px;
-}
-
-.contain {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
 } 
 
 .teach {
