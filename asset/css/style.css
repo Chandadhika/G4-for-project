@@ -184,7 +184,12 @@ body {
 }
 .monk-card img {
     width: 200px;
-    height: 200px; 
+    height: 200px; @media screen and (max-width: 768px) {
+        .hero {
+            height: 400px; /* Reducir la altura para pantallas más pequeñas */
+            padding: 15px; /* Reducir el padding */
+        }
+    }
     border-bottom: 1px solid #ddd;
 }
 .monk-card h3 {
@@ -271,3 +276,15 @@ header .btn {
         gap: 10px; /* Espacio entre elementos de la lista */
     }
 }
+@media screen and (min-width: 768px) {
+    h3 {
+        font-size: 24px; /* Tamaño de fuente más grande para pantallas grandes */
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 400px; /* Reducir la altura para pantallas más pequeñas */
+        padding: 15px; /* Reducir el padding */
+    }
+}
+
