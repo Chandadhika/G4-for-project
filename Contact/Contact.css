@@ -1,119 +1,73 @@
-.contact h2 {
-    color: #31342e;
-    background-color: aqua;
-    width: 110px;
-    text-align: center;
-    height: 30px;
-  }
-  .container-fluid {
-   text-align: center;
-   width: 200px;
-  }
-  .contact-info iframe {
-    width: 300px;
-    height: 300px;
-    box-shadow: 10px 10px 20px black;
-  }
-
-  .hero-form button {
-    color: #fce138;
-    background-color: #024e76;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-  } 
-  
-
-  .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
-    color: rgb(151, 32, 32);
-  }
-  
-  .contact-info h3 {
-    color: #3842fc;
-    font-size: 32px;
-  }
-  
-  .contact-info p,
-  .contact-info address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 20px;
-    font-style: normal;
-  }
-  
-  .contact-info a {
-    color: #385ffc;
-  }
-
-  h3 {
-    text-align: left;
-  }
-
-  @media screen and (max-width: 768px) {
-    .form-container {
-        padding: 20px;
-    }
-
-    .form-container h1 {
-        font-size: 2rem;
-    }
-
-    .form-container form {
-        max-width: 100%;
-    }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 576px) {
-    .form-container h1 {
-        font-size: 1.8rem;
-    }
-}
-  
-  /* REACH OUT STYLES END */
-  .text-90xl {
-    background-color: #31342e;
-    height: 50px;
-    text-align: center;
-    padding: 15px;
-      }
-
-      .do {
-        background-color: rgb(199, 160, 244);
-        border: 2px solid rgb(108, 85, 213);
-        padding: 40px;
-        width: 600px;
-        margin: 40px;
-        height: 400px;
-        font-size: 50px;
-        margin-left: 600px;
-        bottom:120px;
-        position: absolute;
-
-    }
+/* Body styles */
 body {
-  background-color: rgb(115, 141, 70);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
-@media screen and (max-width: 768px) {
-  .do {
-      width: 100%; /* Full width on smaller screens */
-      height: auto; /* Adjust height automatically */
-      font-size: 18px; /* Decrease font size for smaller screens */
-      padding: 20px; /* Reduce padding for smaller screens */
-      margin: 20px auto; /* Adjust margin for smaller screens */
+
+/* Header styles */
+h1 {
+  text-align: center;
+  color: rgb(5, 4, 4);
+  background-color: rgb(122, 122, 186);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Section styles */
+section.do {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+}
+
+section.do h3 {
+  color: #333;
+}
+
+section.do p {
+  margin: 20px 0;
+}
+
+section.do address {
+  margin-top: 20px;
+}
+
+/* Marquee styles */
+.marquee {
+  color: #751313;
+  width: 100%;
+  padding: 10px;
+  background-color: #f8f9fa;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.marquee a {
+  text-decoration: none;
+  color: rgb(196, 213, 227);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px;
   }
 
-  .do h3 {
-      font-size: 22px; /* Adjust heading font size */
+  .marquee {
+    width: 90%;
   }
-
-  .do p,
-  .do address {
-      margin-top: 15px; /* Reduce top margin for paragraphs and address */
-      font-size: 16px; /* Adjust font size for paragraphs and address */
-  }
-}  
+}
