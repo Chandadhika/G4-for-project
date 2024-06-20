@@ -44,30 +44,36 @@ section.do address {
   margin-top: 20px;
 }
 
-/* Marquee styles */
 .marquee {
-  color: #751313;
-  width: 100%;
-  padding: 10px;
-  background-color: #f8f9fa;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  overflow: hidden; /* Ensures content doesn't overflow */
+  white-space: nowrap; /* Prevents text wrapping */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  background-color: #f0f0f0; /* Background color */
+}
+
+.marquee strong {
+  display: block; /* Makes the strong element a block-level element */
+  padding: 10px 20px; /* Adds padding inside the marquee */
 }
 
 .marquee a {
-  text-decoration: none;
-  color: rgb(196, 213, 227);
+  text-decoration: none; /* Removes underline from the link */
+  color: rgb(29, 248, 29); /* Text color */
+  text-shadow: 0 4px 8px #ec9544; /* Adds text shadow */
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 24px;
-  }
-
+.marquee a:hover {
+  text-decoration: underline; /* Underlines link on hover */
+}
+@media screen and (max-width: 767px) {
   .marquee {
-    width: 90%;
+    font-size: 14px; /* Adjust font size */
+  }
+}
+
+/* For screens 768px and larger (typical tablets and desktops) */
+@media screen and (min-width: 768px) {
+  .marquee {
+    font-size: 18px; /* Adjust font size */
   }
 }
