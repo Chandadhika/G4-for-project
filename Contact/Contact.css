@@ -24,9 +24,9 @@
   border: 2px solid rgb(108, 85, 213);
   padding: 40px;
   width: 500px;
-  height: 400px;
+  /* height: 400px; */
   font-size: 20px;
-  bottom:85px;
+  /* bottom:85px; */
   position: absolute;
   left: 700px;
 
@@ -46,14 +46,14 @@ h1 {
   text-align: center;
   color: rgb(5, 4, 4);
   background-color: rgb(122, 122, 186);
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 
 /* Section styles */
 section.do {
   margin-top: 20px;
-  padding: 20px;
+  padding: 50px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 5px;
