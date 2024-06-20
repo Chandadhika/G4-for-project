@@ -58,7 +58,7 @@ section.do address {
 
 .marquee a {
   text-decoration: none; /* Removes underline from the link */
-  color: rgb(29, 248, 29); /* Text color */
+  color: rgb(2, 15, 2); /* Text color */
   text-shadow: 0 4px 8px #ec9544; /* Adds text shadow */
 }
 
