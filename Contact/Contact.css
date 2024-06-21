@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 576px) {
+    .form-container h1 {
+        font-size: 1.8rem;
+    }
+}
+  
+  /* REACH OUT STYLES END */
+.text-90xl {
+  background-color: #31342e;
+  height: 50px;
+  text-align: center;
+  padding: 15px;
+}
+
+.do {
+  background-color: rgb(199, 160, 244);
+  border: 2px solid rgb(108, 85, 213);
+  padding: 40px;
+  width: 500px;
+  /* height: 400px; */
+  font-size: 20px;
+  /* bottom:85px; */
+  position: absolute;
+  left: 700px;
+
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+h1 {
+  text-align: center;
+  color: rgb(5, 4, 4);
+  background-color: rgb(122, 122, 186);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Section styles */
+section.do {
+  margin-top: 20px;
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  left: 300px;
+  width: 50%;
+  text-align: center;
+}
+
+section.do h3 {
+  color: #333;
+}
+
+section.do p {
+  margin: 20px 0;
+}
+
+section.do address {
+  margin-top: 20px;
+}
+
+.marquee {
+  overflow: hidden; /* Ensures content doesn't overflow */
+  white-space: nowrap; /* Prevents text wrapping */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  background-color: #f0f0f0; /* Background color */
+}
+
+.marquee strong {
+  display: block; /* Makes the strong element a block-level element */
+  padding: 10px 20px; /* Adds padding inside the marquee */
+}
+
+.marquee a {
+  text-decoration: none; /* Removes underline from the link */
+  color: rgb(2, 15, 2); /* Text color */
+  text-shadow: 0 4px 8px #ec9544; /* Adds text shadow */
+}
+
+.marquee a:hover {
+  text-decoration: underline; /* Underlines link on hover */
+}
+@media screen and (max-width: 767px) {
+  .marquee {
+    font-size: 14px; /* Adjust font size */
+  }
+}
+
+/* For screens 768px and larger (typical tablets and desktops) */
+@media screen and (min-width: 768px) {
+  .marquee {
+    font-size: 18px; /* Adjust font size */
+  }
+}
