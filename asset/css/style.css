@@ -89,8 +89,9 @@ body {
     width: 100%;
     padding: 25px;
     margin-bottom: 30px;
-    background-image: url(/asset/image1/Main\ gate.PNG);
+    background-image: url(/asset/image/panna3.jpg);
     background-size: cover;
+    background-attachment: fixed;
     display: inline-block;
     align-items: center;
     background-position: center center;
@@ -166,7 +167,7 @@ body {
     color: rgb(50, 65, 195);
 }
 .teach p {
-    /* background-color: rgb(218, 245, */
+    /* background-color: rgb(218, 245,) */
     display: block;
 
 }
