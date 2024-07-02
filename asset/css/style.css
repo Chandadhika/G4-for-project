@@ -9,6 +9,7 @@ header {
     justify-content: space-between;
     background-color: #282c2d75;
     align-items: center;
+    z-index: 1;
     padding: 10px 20px; /* Añadimos padding para espacio interno */
 }
 
@@ -94,7 +95,7 @@ body {
     background-attachment: fixed;
     display: inline-block;
     align-items: center;
-    background-position: center center;
+    background-position: center;
     
 }
 .container {
@@ -253,6 +254,8 @@ header .btn {
     box-shadow: -3px -4px 2px 1px rgb(22, 22, 214);
 
 }
+
+
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column; /* Columna en lugar de fila */
